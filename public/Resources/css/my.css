@@ -1,0 +1,80 @@
+/* Menu/index  */
+
+.control-label
+{
+	padding-top:7px;
+	text-align:right;
+}
+
+.tab-sign
+{
+	width: 55px;
+    display: inline-block;
+    margin-left: 15px;
+    height: 21px;
+    vertical-align: middle;
+    background-image: url(../../public/Resources/dist/img/tab_sign.png);
+    background-repeat: no-repeat;
+    background-position: -55px 0;
+}
+
+
+/* Role/index 权限管理样式 */
+.widget-box 
+{
+    padding: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin: 7px 0;
+    border: 1px solid #CCC;
+}
+
+.widget-header 
+{
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    position: relative;
+    min-height: 38px;
+    background: #f7f7f7;
+    background-image: -webkit-linear-gradient(top, #ffffff 0%, #eeeeee 100%);
+    background-image: -o-linear-gradient(top, #ffffff 0%, #eeeeee 100%);
+    background-image: linear-gradient(to bottom, #ffffff 0%, #eeeeee 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffeeeeee', GradientType=0);
+    /*color: #669fc7;*/
+    border-bottom: 1px solid #DDD;
+    padding-left: 30px;
+}
+
+.widget-header > .widget-title 
+{
+    line-height: 36px;
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+
+.widget-toolbar
+{
+    display: inline-block;
+    padding: 0 15px;
+    line-height: 41px;
+    float: right;
+    position: relative;
+    border-left: 1px solid #ccc;
+    cursor:pointer;
+}
+
+.widget-body 
+{
+    background-color: #FFF;
+}
+
+.widget-main 
+{
+    padding: 12px;
+    padding-left:30px;
+}
+
+
